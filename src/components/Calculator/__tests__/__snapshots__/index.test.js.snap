@@ -11,114 +11,133 @@ exports[`renders correctly 1`] = `
   </div>
   <div
     className="btn"
+    id="clear"
     onClick={[Function]}
   >
     C
   </div>
   <div
     className="btn"
+    id="sign"
     onClick={[Function]}
   >
     +/-
   </div>
   <div
     className="btn"
+    id="percent"
     onClick={[Function]}
   >
     %
   </div>
   <div
     className="btn operator"
+    id="divide"
     onClick={[Function]}
   >
     ÷
   </div>
   <div
     className="btn"
+    id="seven"
     onClick={[Function]}
   >
     7
   </div>
   <div
     className="btn"
+    id="eight"
     onClick={[Function]}
   >
     8
   </div>
   <div
     className="btn"
+    id="nine"
     onClick={[Function]}
   >
     9
   </div>
   <div
     className="btn operator"
+    id="multiply"
     onClick={[Function]}
   >
     x
   </div>
   <div
     className="btn"
+    id="four"
     onClick={[Function]}
   >
     4
   </div>
   <div
     className="btn"
+    id="five"
     onClick={[Function]}
   >
     5
   </div>
   <div
     className="btn"
+    id="six"
     onClick={[Function]}
   >
     6
   </div>
   <div
     className="btn operator"
+    id="minus"
     onClick={[Function]}
   >
     -
   </div>
   <div
     className="btn"
+    id="one"
     onClick={[Function]}
   >
     1
   </div>
   <div
     className="btn"
+    id="two"
     onClick={[Function]}
   >
     2
   </div>
   <div
     className="btn"
+    id="three"
     onClick={[Function]}
   >
     3
   </div>
   <div
     className="btn operator"
+    id="plus"
     onClick={[Function]}
   >
     +
   </div>
   <div
     className="btn zero"
+    id="zero"
     onClick={[Function]}
   >
     0
   </div>
   <div
     className="btn"
+    id="dot"
     onClick={[Function]}
   >
     .
   </div>
   <div
     className="btn operator"
+    id="equal"
     onClick={[Function]}
   >
     =

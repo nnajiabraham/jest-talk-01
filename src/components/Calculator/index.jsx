@@ -87,29 +87,29 @@ class Calculator extends Component {
       <div className="calculator">
         <div className="display">{current || '0'}</div>
 
-        <div className="btn" onClick={this.clear}>C</div>
-        <div className="btn" onClick={this.sign}>+/-</div>
-        <div className="btn" onClick={this.percent}>%</div>
-        <div className="btn operator" onClick={this.callDivide}>÷</div>
+        <div id="clear" className="btn" onClick={this.clear}>C</div>
+        <div id="sign" className="btn" onClick={this.sign}>+/-</div>
+        <div id="percent" className="btn" onClick={this.percent}>%</div>
+        <div id="divide" className="btn operator" onClick={this.callDivide}>÷</div>
 
-        <div className="btn" onClick={() => this.append('7')}>7</div>
-        <div className="btn" onClick={() => this.append('8')}>8</div>
-        <div className="btn" onClick={() => this.append('9')}>9</div>
-        <div className="btn operator" onClick={this.callTimes}>x</div>
+        <div id="seven" className="btn" onClick={() => this.append('7')}>7</div>
+        <div id="eight" className="btn" onClick={() => this.append('8')}>8</div>
+        <div id="nine" className="btn" onClick={() => this.append('9')}>9</div>
+        <div id="multiply" className="btn operator" onClick={this.callTimes}>x</div>
 
-        <div className="btn" onClick={() => this.append('4')}>4</div>
-        <div className="btn" onClick={() => this.append('5')}>5</div>
-        <div className="btn" onClick={() => this.append('6')}>6</div>
-        <div className="btn operator" onClick={this.callMinus}>-</div>
+        <div id="four" className="btn" onClick={() => this.append('4')}>4</div>
+        <div id="five" className="btn" onClick={() => this.append('5')}>5</div>
+        <div id="six" className="btn" onClick={() => this.append('6')}>6</div>
+        <div id="minus" className="btn operator" onClick={this.callMinus}>-</div>
 
-        <div className="btn" onClick={() => this.append('1')}>1</div>
-        <div className="btn" onClick={() => this.append('2')}>2</div>
-        <div className="btn" onClick={() => this.append('3')}>3</div>
-        <div className="btn operator" onClick={this.callAdd}>+</div>
+        <div id="one" className="btn" onClick={() => this.append('1')}>1</div>
+        <div id="two" className="btn" onClick={() => this.append('2')}>2</div>
+        <div id="three" className="btn" onClick={() => this.append('3')}>3</div>
+        <div id="plus" className="btn operator" onClick={this.callAdd}>+</div>
 
-        <div className="btn zero" onClick={() => this.append('0')}>0</div>
-        <div className="btn" onClick={this.dot}>.</div>
-        <div className="btn operator" onClick={this.equal}>=</div>
+        <div id="zero" className="btn zero" onClick={() => this.append('0')}>0</div>
+        <div id="dot" className="btn" onClick={this.dot}>.</div>
+        <div id="equal" className="btn operator" onClick={this.equal}>=</div>
       </div>
     );
   }
